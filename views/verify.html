@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lyft App</title>
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body class="vh100"
+    <main>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="first-section-signup">
+                <div class="container-icon">
+                  <a href="signup.html" type="button" class="btn btn-default icon-button border-none">
+                    <span class="glyphicon glyphicon-menu-left arrow-left different-arrow" aria-hidden="true"></span>
+                  </a>
+                </div>
+                <div class="container-title text-center">
+                  <h1 class="main-title-signup"><strong>Verify Phone Number</strong></h1>
+                </div>
+                <p class="main-title-paragraph-2 text-center">Join now for free ride credit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Formulario -->
+      <section class="verify-section margin-top-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 lab-code-container">
+              <div class="lab-code">
+                <span class="lab-text">LAB -</span>
+                <input type="text" class="rand-num-container" id="rand-num-1">
+                <input type="text" class="rand-num-container" id="rand-num-2">
+                <input type="text" class="rand-num-container" id="rand-num-3">
+              </div>
+              <div class="code-container">
+                <span class="text-center enter-code" id="enter-the-code">Enter the code send to </span>
+                <span class="code-number" id="country-code">+</span>
+              </div>
+              <button class="btn btn-default resend" type="submit">Resend code</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Botones -->
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 third-section">
+              <button type="button" class="btn btn-default btn-lg btn-block active active-button" id="next-button" disabled>NEXT</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/verify.js"></script>
+  </body>
+</html>

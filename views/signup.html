@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lyft App</title>
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body class="vh100">
+    <main>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="first-section-signup">
+                <div class="container-icon">
+                  <a href="register.html" type="button" class="btn btn-default icon-button">
+                    <span class="glyphicon glyphicon-menu-left arrow-left" aria-hidden="true"></span>
+                  </a>
+                </div>
+                <div class="container-title text-center">
+                  <h1 class="main-title-signup"><strong>Sign up</strong></h1>
+                </div>
+                <p class="main-title-paragraph text-center">Join now for free ride credit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Formulario -->
+      <section class="form-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="phone-number-container">
+                <div class="btn-group button-container">
+                  <button type="button" class="btn btn-default dropdown-toggle flag-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="main-flag-button">
+                    <img src="../assets/icons/flags/mx.png" alt="Bandera de México" class="main-flag" data-country="mex" data-option="0"> <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu flags-container">
+                    <li id="flag-li-1"><img src="../assets/icons/flags/co.png" alt="Bandera de Colombia" class="flags" data-country="co" data-option="1"></li>
+                    <li id="flag-li-2"><img src="../assets/icons/flags/pe.png" alt="Bandera de Perú" class="flags" data-country="pe" data-option="2"></li>
+                    <li role="separator" class="divider"></li>
+                    <li id="flag-li-3"><img src="../assets/icons/flags/us.png" alt="Bandera de EE.UU." class="flags" data-country="us" data-option="3"></li>
+                  </ul>
+                </div>
+                <div class="input-container text-center">
+                  <input type="text" placeholder="Ingrese su No. telefónico" value="" class="input-phone-number" id="phone-number">
+                </div>
+              </div>
+              <p class="text-center send-text">We'll send a text to verify your phone</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Botones -->
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 third-section">
+              <button type="button" class="btn btn-default btn-lg btn-block active active-button" id="next-button" disabled>NEXT</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/signup.js"></script>
+  </body>
+</html>

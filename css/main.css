@@ -1,0 +1,396 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grad {
+  background: linear-gradient(to bottom right, #6e4a74 20%, #df0c8f);
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.white-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.white-logo-1 {
+  width: 30%;
+}
+
+/* Hoja de estilos para el archivo html register */
+
+/* Estilos al body y a los elementos contenidos por este*/
+
+.background-image {
+  background-image: url('../assets/images/quickly.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.white-logo-2 {
+  width: 20vw;
+}
+
+.pink-logo-container {
+  margin-top: 7em;
+}
+
+.pink-logo {
+  width: 60%;
+}
+
+/* Estilos a los botones */
+
+.btns-register {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  font-size: 1.3em;
+  padding: 10.5px 11px;
+  margin: 0 0.5vw;
+}
+
+.btns-register:hover, .btns-register:active {
+  color: white;
+  background-color: #e5e8e8;
+  border: 1px solid #ccc;
+  font-size: 1.2em;
+  padding: 17.5px 28px;
+  margin: 0 0.5vw;
+}
+
+.flex-container-btn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 50vh;
+}
+
+/* Hoja de estilos para el archivo html signup */
+
+/* Estilos a la primera sección */
+
+.first-section-signup {
+  border-bottom: 3px solid #eee;
+  margin-top: 0.5em;
+}
+
+.container-icon {
+  display: inline-block;
+  width: 5%;
+}
+
+.icon-button {
+  border-radius: 50%;
+  border: 2px solid #000;
+  font-size: 1.5em;
+  padding: 0px 5px;
+  margin-top: 0.7em;
+}
+
+.icon-button:hover, .icon-button:active:hover, .icon-button:visited {
+  border: 2px solid #000;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon-button .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: none;
+  box-shadow: none ;
+}
+
+.border-none {
+  border: none;
+}
+
+.arrow-left {
+  padding-top: 0.1em;
+}
+
+.container-title {
+  display: inline-block;
+  width: 88%;
+}
+
+.main-title-signup {
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.main-title-paragraph {
+  font-size: 15px;
+
+}
+
+.main-title-paragraph-2 {
+  font-size: 23px;
+  margin-top: 0;
+}
+
+/* Estilos a la sección del formulario*/
+
+.form-section {
+  margin-top: 2.5em;
+}
+
+.phone-number-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  height: 12vh;
+  width: 35vw;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag-button {
+  border: none;
+  margin-bottom: 0.5em;
+}
+
+.flag-button:hover {
+  background-color: transparent;
+}
+
+.form-section .btn-default:active, .form-section .open>.dropdown-toggle.btn-default{
+  border: none;
+  background-color: transparent;
+}
+
+.form-section .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: none;
+  box-shadow: none ;
+}
+
+.flags-container {
+  line-height: 65px;
+  top: 25%;
+  left: 34%;
+}
+
+.main-flag {
+  width: 60px;
+  height: 36px;
+}
+
+.flags {
+  margin-left: 1.5em;
+  width: 40px;
+  height: 3%;
+}
+
+.btn .caret {
+  margin-left: 0.5em;
+  color: #00b2ee;
+}
+
+.spacing {
+  margin-left: 0.7em;
+}
+
+.input-container {
+  display: inline-block;
+  border: 1px solid #000;
+  height: 12vh;
+  width: 45vw;
+}
+
+.input-phone-number {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #adadad;
+  width: 85%;
+  line-height: 64px;
+  outline-color: transparent;
+}
+
+.green-border {
+  border-bottom: 3px solid #22e333;
+  outline-color: #adadad;
+}
+
+.send-text {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 1.7em;
+}
+
+/* Estilos a la  sección del botón NEXT */
+
+.third-section {
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  top: 90vh;
+}
+
+.active-button {
+  height: 10vh;
+}
+
+.third-section .btn-default.active {
+  background-color: #df0c8f;
+  color: #fff;
+  border: 1px solid #df0c8f;
+  border-radius: 0;
+}
+
+.third-section .btn-default.active[disabled] {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.third-section .btn-default.active:hover, .third-section .btn-default.active:focus {
+  background-color: #fff;
+  color: #df0c8f;
+  border: 1px solid #fff;
+  outline: 0;
+}
+
+.third-section .btn-default.active[disabled]:hover {
+  background-color: #fff;
+  border-color: #ccc;
+  color: #333;
+}
+
+.active-button:visited {
+  background-color: #df0c8f;
+  color: #fff;
+  border: 1px solid #df0c8f;
+}
+
+/* Estilos a la vista Verify */
+
+/* Estilos al ícono flecha */
+
+.different-arrow {
+  color: #FF06D2;
+  font-size: 1.5em;
+  padding-top: 0;
+}
+
+/* Estilos a la segunda sección y a sus elementos contenidos*/
+
+.margin-top-2 {
+  margin-top: 2.2em;
+}
+
+.lab-text {
+  font-weight: 700;
+}
+
+.verify-section input {
+  border-style: none;
+  border-bottom: 3px solid #ac06ff;
+  width: 3vw;
+}
+
+.lab-code-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lab-code {
+  margin-bottom: 1.5em;
+}
+
+.code-container {
+  margin-bottom: 1.3em;
+}
+
+.lab-code-container .btn-default {
+  background-color: #D7DBDD;
+  border-color: #D7DBDD;
+}
+
+/* Estilos al botón RESEND CODE */
+
+.resend {
+  display: block;
+}
+
+/* Estilos para la vista Sign Up 2 */
+
+.form-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-gr-name .form-control {
+  width: 50%;
+}
+
+.input-gr-name, .input-email {
+  width: 70%;
+}
+
+.input-gr-name .glyphicon, .input-email .glyphicon {
+  position: static;
+  color: #D0D3D4;
+  background-color: transparent;
+}
+
+.name-input {
+  text-transform: uppercase;
+}
+
+.name-input::placeholder  {
+  text-transform: capitalize;
+}
+
+
+/* Estilos para el Closing(la vista Close) */
+
+/* Estilos para el contenedor de la imagen */
+
+.column-direction {
+  flex-direction: column;
+}
+
+/* Estilos de la imagen */
+
+.margin-bottom {
+  margin-bottom: 2em;
+}
+
+
+/* Estilos para el checkbox */
+
+.big-checkbox-container {
+  width: 100%;
+  margin-bottom: 2.5em;
+}
+
+.checkbox {
+  width: 100%;
+}
+
+.label-checkbox {
+  width: 100vw;
+}
+
+.input-checkbox {
+  width: 100%;
+  height: 30vh;
+}
